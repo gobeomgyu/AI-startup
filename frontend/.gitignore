@@ -1,0 +1,11 @@
+node_modules/
+.next/
+out/
+build/
+coverage/
+.vite/
+.vitest/
+*.tsbuildinfo
+.env.local
+.local/
+.publish/

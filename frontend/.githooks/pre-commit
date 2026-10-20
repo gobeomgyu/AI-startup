@@ -1,0 +1,5 @@
+#!/bin/sh
+set -eu
+
+printf '%s\n' 'Running lint, format, type checks, and tests before commit...'
+npm run check

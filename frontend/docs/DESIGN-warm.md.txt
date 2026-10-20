@@ -1,0 +1,272 @@
+---
+name: Warm Focus
+colors:
+  surface: '#161311'
+  surface-dim: '#161311'
+  surface-bright: '#3d3836'
+  surface-container-lowest: '#110d0c'
+  surface-container-low: '#1f1b19'
+  surface-container: '#231f1d'
+  surface-container-high: '#2e2927'
+  surface-container-highest: '#393431'
+  on-surface: '#eae1dd'
+  on-surface-variant: '#dcc1b4'
+  inverse-surface: '#eae1dd'
+  inverse-on-surface: '#342f2d'
+  outline: '#a48c80'
+  outline-variant: '#554339'
+  surface-tint: '#ffb68d'
+  primary: '#ffb68d'
+  on-primary: '#532200'
+  primary-container: '#e07a38'
+  on-primary-container: '#4f2000'
+  inverse-primary: '#9b4600'
+  secondary: '#f0bd8b'
+  on-secondary: '#482904'
+  secondary-container: '#65411a'
+  on-secondary-container: '#e1af7e'
+  tertiary: '#a2d3a2'
+  on-tertiary: '#0a3816'
+  tertiary-container: '#71a073'
+  on-tertiary-container: '#063513'
+  error: '#ffb4ab'
+  on-error: '#690005'
+  error-container: '#93000a'
+  on-error-container: '#ffdad6'
+  primary-fixed: '#ffdbc9'
+  primary-fixed-dim: '#ffb68d'
+  on-primary-fixed: '#331200'
+  on-primary-fixed-variant: '#763300'
+  secondary-fixed: '#ffdcbd'
+  secondary-fixed-dim: '#f0bd8b'
+  on-secondary-fixed: '#2c1600'
+  on-secondary-fixed-variant: '#623f18'
+  tertiary-fixed: '#bdefbd'
+  tertiary-fixed-dim: '#a2d3a2'
+  on-tertiary-fixed: '#002108'
+  on-tertiary-fixed-variant: '#24502b'
+  background: '#161311'
+  on-background: '#eae1dd'
+  surface-variant: '#393431'
+  surface-base: '#141110'
+  surface-panel: '#1d1917'
+  surface-card: '#26211e'
+  surface-elevated: '#332c28'
+  surface-light-canvas: '#fbf8f5'
+  surface-light-card: '#f2ece4'
+  border-subtle: rgba(224, 122, 56, 0.12)
+  border-hairline: '#362f2a'
+  text-primary: '#f5ede4'
+  text-secondary: '#baaba0'
+  text-muted: '#82756c'
+  accent-terracotta: '#e07a38'
+  accent-ember: '#f2994a'
+  status-success: '#629f6d'
+  status-warning: '#dca54c'
+  status-critical: '#d95d4e'
+typography:
+  headline-xl:
+    fontFamily: Inter
+    fontSize: 36px
+    fontWeight: '600'
+    lineHeight: 44px
+    letterSpacing: -0.025em
+  headline-xl-mobile:
+    fontFamily: Inter
+    fontSize: 28px
+    fontWeight: '600'
+    lineHeight: 36px
+    letterSpacing: -0.02em
+  headline-lg:
+    fontFamily: Inter
+    fontSize: 24px
+    fontWeight: '600'
+    lineHeight: 32px
+    letterSpacing: -0.02em
+  headline-md:
+    fontFamily: Inter
+    fontSize: 20px
+    fontWeight: '600'
+    lineHeight: 28px
+    letterSpacing: -0.015em
+  headline-sm:
+    fontFamily: Inter
+    fontSize: 16px
+    fontWeight: '600'
+    lineHeight: 24px
+    letterSpacing: -0.01em
+  body-lg:
+    fontFamily: Inter
+    fontSize: 16px
+    fontWeight: '400'
+    lineHeight: 24px
+    letterSpacing: -0.005em
+  body-md:
+    fontFamily: Inter
+    fontSize: 14px
+    fontWeight: '400'
+    lineHeight: 20px
+    letterSpacing: 0em
+  body-sm:
+    fontFamily: Inter
+    fontSize: 12px
+    fontWeight: '400'
+    lineHeight: 16px
+    letterSpacing: 0.005em
+  label-md:
+    fontFamily: Inter
+    fontSize: 13px
+    fontWeight: '500'
+    lineHeight: 18px
+    letterSpacing: 0.005em
+  label-sm:
+    fontFamily: Inter
+    fontSize: 11px
+    fontWeight: '600'
+    lineHeight: 14px
+    letterSpacing: 0.04em
+  code-sm:
+    fontFamily: JetBrains Mono
+    fontSize: 12px
+    fontWeight: '400'
+    lineHeight: 16px
+    letterSpacing: 0em
+rounded:
+  sm: 0.125rem
+  DEFAULT: 0.25rem
+  md: 0.375rem
+  lg: 0.5rem
+  xl: 0.75rem
+  full: 9999px
+spacing:
+  gutter: 1rem
+  gutter-desktop: 1.5rem
+  margin: 1rem
+  margin-desktop: 2rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 0.75rem
+  space-lg: 1rem
+  space-xl: 1.5rem
+  space-2xl: 2rem
+---
+
+## Brand & Style
+
+This design system reimagines high-velocity productivity software through a human-centered, organic lens. Instead of the sterile, clinical glow of cold blues and saturated indigos typical in developer tooling, the system introduces a tactile, paper-and-wood warmth that drastically reduces cognitive fatigue during prolonged deep-work sessions.
+
+### Brand Personality & Emotional Intent
+- **Calm & Grounded:** Replacing harsh fluorescent contrasts with warm sand, linen, and rich espresso tones creates an inviting atmosphere reminiscent of an architect’s studio or a curated library workspace.
+- **Warm Precision:** The visual language preserves surgical metric alignment, dense data grids, and keyboard-first velocity, pairing them with warm terracotta, ember, and toasted ochre accents that provide clarity without anxiety.
+- **Refined Tactility:** The interface evokes natural matte materials—clay, woven paper, brushed bronze, and deep warm slate—producing an intuitive, distraction-free environment for continuous focus.
+
+### Design Movement: Warm Tactile Minimalism
+The aesthetic bridges contemporary productivity interfaces (Linear, Notion) with Japanese craft minimalism and Scandinavian warm neutral architecture. Surfaces rely on warm spectral undertones, subtle tone-on-tone separations, crisp micro-borders, and soft diffused shadows rather than hyper-saturated neon glows.
+
+## Colors
+
+The color palette is calibrated around warm spectral wavelengths. By infusing neutral surfaces with umber, sand, and charcoal undertones, the interface eliminates cold blue luminescence and softens the harsh visual edges that contribute to eye strain.
+
+### Palette Architecture
+- **Primary Accent (Warm Terracotta / Ember `#E07A38`):** The primary visual driver for deliberate actions, active states, row highlights, and focus borders. It conveys human warmth, energy, and precision without visual hostility.
+- **Secondary Tone (Toasted Ochre / Sandstone `#D4A373`):** Used for metadata tags, active secondary filters, timestamps, and metric telemetry.
+- **Tertiary Accent (Sage Forest `#5E8C61`):** A restful, botanical green for positive status indicators, task completion counters, and healthy system states.
+- **Neutral Foundation (Charcoal Espresso `#1A1614`):** The core neutral palette. Dark mode uses rich, warm espresso substrates instead of sterile cold blue-blacks, preventing OLED starkness while preserving contrast ratios compliant with WCAG AAA standards.
+
+### Surface Hierarchy (Dark Focus Baseline)
+- **Substrate Floor (`#141110`):** Canvas background for workspaces and main stage areas.
+- **Layer 1 – Structural Rails (`#1D1917`):** Side navigation bars, contextual utility drawers, and header rails.
+- **Layer 2 – Cards & Containers (`#26211E`):** Document sections, table rows, and interactive panes.
+- **Layer 3 – Overlays & Flyouts (`#332C28`):** Hover surfaces, active dropdown menus, context menus, and modal dialogs.
+
+### Warm Light Mode Counterpart
+When rendered in light mode, the substrate transitions to an unbleached linen canvas (`#FBF8F5`), layered with warm oatmeal cards (`#F2ECE4`), stone borders (`#E2D9CE`), and deep espresso ink (`#2A2421`) for body copy.
+
+## Typography
+
+The typography couples the functional clarity of Inter with the monospace utility of JetBrains Mono for system metrics, execution badges, and keyboard navigation cues.
+
+### Typographic Principles
+- **Optical Calm:** Inter is tuned to warm background temperatures with deliberate tracking. Headlines feature tight negative tracking (`-0.02em` to `-0.025em`) to maintain editorial punch, while micro-labels utilize wide tracking (`+0.04em`) to ensure legibility on dark espresso surfaces.
+- **Tabular Alignment:** All numerical outputs, financial readouts, and table cells enforce `font-feature-settings: "tnum" 1` to guarantee rigid column stability during live data streaming.
+- **Strict 4px Cadence:** All line-height values conform to 4px multiples, maintaining an unbroken vertical rhythm across nested task boards, modal sheets, and sidebars.
+
+## Layout & Spacing
+
+The layout model pairs a high-density, multi-pane productivity shell with responsive fluid work surfaces.
+
+### Shell Architecture & Grid Dynamics
+- **Primary Utility Rail:** Fixed width of 240px (collapsing to a 56px icon rail on compact viewports), housing navigational hierarchies and team switches.
+- **Contextual Inspector Pane:** Fixed 320px sidebar for task attributes, comments, revisions, or property trees.
+- **Main Working Canvas:** Fluid layout stretching between rails with an inner clamp of 1440px for document views, or unbounded edge-to-edge layout for dense data grids.
+- **Fluid Breakpoints:**
+  - `Desktop Pro (≥1440px)`: Three-column persistent workstation (Rail + Canvas + Inspector).
+  - `Laptop (1024px – 1439px)`: Two-column layout with inspector transitioning to an overlay drawer.
+  - `Tablet (768px – 1023px)`: Collapsed 56px rail, single canvas view, 16px margins.
+  - `Mobile (<768px)`: Single column flow, docked bottom utility bar, contextual action sheets.
+
+### Spacing Rhythm
+- Internal gaps and padding use tight 4px and 8px units (`space-xs`, `space-sm`) to support high information density.
+- Section boundaries and card groupings expand with `space-lg` (16px) and `space-xl` (24px) to retain compositional rhythm.
+
+## Elevation & Depth
+
+Visual depth is conveyed through tactile tonal stacking, warm ambient occlusion shadows, and precision hairline borders, avoiding loud multi-colored glows or abrupt stark drop shadows.
+
+### Elevation Stacking Tiers
+- **Tier 0 (Base Floor):** `#141110` (Dark) / `#FBF8F5` (Light). Zero shadow, foundational substrate.
+- **Tier 1 (Panels & Groupings):** `#1D1917` (Dark) / `#F2ECE4` (Light). Border: 1px solid `#362F2A` (Dark) / `#E2D9CE` (Light). Shadow: none.
+- **Tier 2 (Floating Cards & Menus):** `#26211E` (Dark) / `#FFFFFF` (Light). Subtle warm ambient shadow: `box-shadow: 0 4px 16px -2px rgba(18, 14, 12, 0.45)`. Hairline rim: 1px solid `#423933`.
+- **Tier 3 (Command Palettes & Modals):** `#332C28` with warm frosted diffusion (`backdrop-filter: blur(16px); background: rgba(30, 25, 23, 0.88);`). Shadow: `box-shadow: 0 20px 48px -8px rgba(12, 9, 8, 0.70), 0 0 0 1px rgba(224, 122, 56, 0.15)`.
+
+### Border Discipline
+All elevated cards, modals, and dropdown lists must maintain a crisp 1px border. Drop shadows provide separation, while the hairline border maintains structural definition across uncalibrated monitors.
+
+## Shapes
+
+The design system employs a **Soft (Level 1)** geometric standard. This geometry balances modern density with warm, approachable ergonomics.
+
+### Shape Tokens
+- **Micro Elements (`0.25rem` / `4px`):** Checkboxes, radio buttons, tags, keyboard shortcut badges, status indicators, and compact table selection rows.
+- **Interactive Controls (`0.375rem` / `6px`):** Standard primary/secondary buttons, input fields, pill tabs, dropdown menus, and list-item hover boundaries.
+- **Enclosures & Dialogs (`0.5rem` / `8px`):** Large cards, contextual inspectors, command palettes, and modal dialogue containers.
+- **Circular Elements (`9999px`):** Avatars, pulse indicators, and floating action badges. Primary buttons and form fields maintain architectural rounded rectangles rather than pill shapes.
+
+## Components
+
+### Buttons
+- **Primary:** Solid warm terracotta (`#E07A38`), crisp off-white text (`#FFF7F2`), subtle top bevel (`box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.22)`). Hover states shift to warm ember (`#F2994A`). Active state scales to `98%` with `#CF6C2C`.
+- **Secondary:** Surface `#26211E`, 1px border `#423933`, text `#F5EDE4`. Hover transitions surface to `#332C28` and border to `#52463F`.
+- **Ghost / Icon:** Transparent background, text `#BAABA0`, hover background `rgba(224, 122, 56, 0.08)`, hover text `#F5EDE4`.
+
+### Input Fields & Search Bars
+- Standard height: 32px (compact workspace) and 40px (prominent search).
+- Background `#1D1917`, 1px border `#362F2A`, text `#F5EDE4`, placeholder `#82756C`.
+- Active focus state: 1px border transitions to `#E07A38` with an ambient glow halo `0 0 0 2px rgba(224, 122, 56, 0.20)`.
+- Trailing shortcut chips (`⌘K`, `/`) positioned with right margin of 8px.
+
+### Keyboard Shortcut Chips (Kbd)
+- Monospaced font via JetBrains Mono (`code-sm`).
+- Height: 20px, minimum width: 20px, horizontal padding: 4px.
+- Background `#26211E`, border 1px solid `#423933`, text `#BAABA0`, border-radius 3px.
+
+### Status Badges & Chips
+- Height: 20px, typography `label-sm` (11px, weight 600, uppercase with +0.04em tracking).
+- Background: 12% opacity of semantic hue. Border: 1px solid at 24% opacity. Text: solid semantic hue.
+  - Active / In Progress: Warm Ember (`#E07A38`)
+  - Resolved / Done: Forest Sage (`#629F6D`)
+  - Queued / Neutral: Warm Sandstone (`#D4A373`)
+  - Blocker: Terracotta Red (`#D95D4E`)
+
+### Interactive Data Tables
+- Row heights: 36px (dense mode), 44px (spacious mode).
+- Bottom border: 1px solid `#26211E`.
+- Hover state: Row background tint `rgba(224, 122, 56, 0.04)`.
+- Selection state: Background `rgba(224, 122, 56, 0.09)` with a 2px solid left accent bar in `#E07A38`.
+- Tabular figures enabled on all numerical data cells.
+
+### Command Palette (Spotlight Focus)
+- Centered floating overlay, width 640px, maximum height 420px.
+- Background: `rgba(29, 25, 23, 0.92)` with `backdrop-filter: blur(20px)`.
+- Outer border: 1px solid `rgba(224, 122, 56, 0.2)`.
+- Integrated search bar with 44px height, followed by a categorized command list displaying inline `kbd` tags.

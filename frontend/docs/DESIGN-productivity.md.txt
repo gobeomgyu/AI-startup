@@ -1,0 +1,260 @@
+---
+name: Kinetic Clarity
+colors:
+  surface: '#0b1326'
+  surface-dim: '#0b1326'
+  surface-bright: '#31394d'
+  surface-container-lowest: '#060e20'
+  surface-container-low: '#131b2e'
+  surface-container: '#171f33'
+  surface-container-high: '#222a3d'
+  surface-container-highest: '#2d3449'
+  on-surface: '#dae2fd'
+  on-surface-variant: '#c7c4d7'
+  inverse-surface: '#dae2fd'
+  inverse-on-surface: '#283044'
+  outline: '#908fa0'
+  outline-variant: '#464554'
+  surface-tint: '#c0c1ff'
+  primary: '#c0c1ff'
+  on-primary: '#1000a9'
+  primary-container: '#8083ff'
+  on-primary-container: '#0d0096'
+  inverse-primary: '#494bd6'
+  secondary: '#ffb68b'
+  on-secondary: '#522300'
+  secondary-container: '#7c3800'
+  on-secondary-container: '#ffa771'
+  tertiary: '#4edea3'
+  on-tertiary: '#003824'
+  tertiary-container: '#00885d'
+  on-tertiary-container: '#000703'
+  error: '#ffb4ab'
+  on-error: '#690005'
+  error-container: '#93000a'
+  on-error-container: '#ffdad6'
+  primary-fixed: '#e1e0ff'
+  primary-fixed-dim: '#c0c1ff'
+  on-primary-fixed: '#07006c'
+  on-primary-fixed-variant: '#2f2ebe'
+  secondary-fixed: '#ffdbc8'
+  secondary-fixed-dim: '#ffb68b'
+  on-secondary-fixed: '#321200'
+  on-secondary-fixed-variant: '#753400'
+  tertiary-fixed: '#6ffbbe'
+  tertiary-fixed-dim: '#4edea3'
+  on-tertiary-fixed: '#002113'
+  on-tertiary-fixed-variant: '#005236'
+  background: '#0b1326'
+  on-background: '#dae2fd'
+  surface-variant: '#2d3449'
+typography:
+  headline-xl:
+    fontFamily: Inter
+    fontSize: 36px
+    fontWeight: '600'
+    lineHeight: 44px
+    letterSpacing: -0.025em
+  headline-xl-mobile:
+    fontFamily: Inter
+    fontSize: 28px
+    fontWeight: '600'
+    lineHeight: 36px
+    letterSpacing: -0.02em
+  headline-lg:
+    fontFamily: Inter
+    fontSize: 24px
+    fontWeight: '600'
+    lineHeight: 32px
+    letterSpacing: -0.02em
+  headline-md:
+    fontFamily: Inter
+    fontSize: 20px
+    fontWeight: '600'
+    lineHeight: 28px
+    letterSpacing: -0.015em
+  headline-sm:
+    fontFamily: Inter
+    fontSize: 16px
+    fontWeight: '600'
+    lineHeight: 24px
+    letterSpacing: -0.01em
+  body-lg:
+    fontFamily: Inter
+    fontSize: 16px
+    fontWeight: '400'
+    lineHeight: 24px
+    letterSpacing: -0.005em
+  body-md:
+    fontFamily: Inter
+    fontSize: 14px
+    fontWeight: '400'
+    lineHeight: 20px
+    letterSpacing: 0em
+  body-sm:
+    fontFamily: Inter
+    fontSize: 12px
+    fontWeight: '400'
+    lineHeight: 16px
+    letterSpacing: 0em
+  label-md:
+    fontFamily: Inter
+    fontSize: 13px
+    fontWeight: '500'
+    lineHeight: 18px
+    letterSpacing: 0.005em
+  label-sm:
+    fontFamily: Inter
+    fontSize: 11px
+    fontWeight: '600'
+    lineHeight: 14px
+    letterSpacing: 0.04em
+  code-sm:
+    fontFamily: JetBrains Mono
+    fontSize: 12px
+    fontWeight: '400'
+    lineHeight: 16px
+    letterSpacing: 0em
+rounded:
+  sm: 0.125rem
+  DEFAULT: 0.25rem
+  md: 0.375rem
+  lg: 0.5rem
+  xl: 0.75rem
+  full: 9999px
+spacing:
+  gutter: 1rem
+  gutter-desktop: 1.5rem
+  margin: 1rem
+  margin-desktop: 2rem
+  space-2xs: 0.125rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 0.75rem
+  space-lg: 1rem
+  space-xl: 1.5rem
+  space-2xl: 2rem
+  space-3xl: 3rem
+---
+
+## Brand & Style
+
+The design system is engineered for modern high-velocity SaaS workflows where information density, precision, and cognitive ease are paramount. Drawing inspiration from precision productivity tools like Linear, Raycast, and Notion, the visual identity pairs absolute utilitarian functionalism with refined visual craft.
+
+### Emotional Response & Personality
+- **Focused & Calm:** Interfaces minimize visual noise to induce flow state, prioritizing user content and structured tasks above decorative elements.
+- **Instrument-Grade Precision:** Every boundary, spacing unit, and font metrics feel calibrated like a surgical instrument or pro developer terminal.
+- **Authoritative & Crisp:** Deep slate tones paired with an electric indigo accent and energetic amber highlights establish confidence, technological excellence, and deliberate action.
+
+### Design Movement: Modern Precision Minimalist
+The aesthetic synthesizes modern technical minimalism with subtle translucent glass accents and micro-fine hairpins. Surfaces rely on structural 1px borders, subtle surface luminosity shifts, and restrained diffusion shadows rather than loud structural shapes.
+
+## Colors
+
+The color architecture is built for dense workspaces, engineered natively with a deep dark mode baseline that dramatically mitigates eye fatigue during sustained screen time, alongside a clean light mode counterpart.
+
+### Neutral System
+- **Slate Canvas Base (`#0B0F19` to `#0F172A`):** The foundational substrate contains cool blue-slate undertones, preventing pure-black OLED smearing while giving ambient depth.
+- **Surface Elevation Steps:** 
+  - Substrate / Canvas: `#090D16`
+  - Layer 1 (Sidebar / Pane): `#0F172A`
+  - Layer 2 (Active Cards / Panels): `#1E293B`
+  - Layer 3 (Hover States / Modals / Popovers): `#334155`
+- **Text & Foreground Hierarchy:** 
+  - Primary Content: `#F8FAFC` (High-contrast Slate 50)
+  - Secondary / Supporting: `#94A3B8` (Slate 400)
+  - Muted / Placeholder: `#64748B` (Slate 500)
+  - Hairline Borders: `#1E293B` on dark, with `#334155` for high-focus boundaries.
+
+### Accents & Status Palette
+- **Primary Electric Indigo (`#6366F1` / Hover `#4F46E5`):** Reserved for primary calls to action, focus rings, selected table rows, active tab indicators, and live execution triggers.
+- **Secondary Warm Amber (`#E88C51`):** Applied to telemetry metrics, informational badges, and active filters.
+- **Semantic Accents:**
+  - **Success (Emerald `#10B981`):** Operational states, completed issues, clean CI builds.
+  - **Warning (Amber `#F59E0B`):** Blocked tasks, impending limits, high-priority triages.
+  - **Critical (Rose `#F43F5E`):** Destructive actions, system outages, overdue deadlines.
+
+## Typography
+
+The typographic hierarchy relies on Inter for universal legibility, optimal vertical metrics, and distinct geometric glyphs across dense screen layouts. JetBrains Mono is paired for monospaced inline values, timestamp badges, and keyboard triggers.
+
+### Principles & Features
+- **Tabular Figures (`tnum`):** All numerals within data tables, analytics panels, and financial tickers use `font-feature-settings: "tnum" 1` to ensure vertical alignment across dynamic updates.
+- **Micro-Scale Legibility:** Body small (12px) and label small (11px) retain higher relative x-heights and slight positive tracking (`+0.04em`) to maintain fast scanning speeds across meta tags, issue counts, and status pills.
+- **Strict Vertical Cadence:** All line-heights are tied to increments of 4px to maintain an invariant baseline grid.
+
+## Layout & Spacing
+
+The layout embraces an adaptive fluid-grid combined with fixed utility rails designed for command-driven desktop productivity.
+
+### Structural Shell & Grids
+- **Left Navigation Rail:** Fixed at 240px (collapsible to a 56px icon rail).
+- **Secondary Context Pane:** Fixed at 320px for detail inspection, timeline events, or inspector panels.
+- **Main Canvas:** Fluid container stretching across remaining screen real estate with a maximum content clamp of 1440px for single-column views, or 100% width for dense data grids.
+- **Breakpoints:**
+  - `Desktop XL` (≥1440px): Full 3-pane workstation view.
+  - `Desktop / Laptop` (1024px – 1439px): Dual-pane with sheet drawers.
+  - `Tablet` (768px – 1023px): Collapsed navigation drawer, full-width canvas, 16px margins.
+  - `Mobile` (<768px): Single-column reflow, bottom sheet navigation, contextual toolbars anchored to the viewport base.
+
+### Spatial Rhythm
+- Internal component spacing uses tight 4px and 8px units (`space-xs`, `space-sm`) to maximize density without creating visual clutter.
+- Section paddings utilize `space-xl` (24px) to create breathing room between discrete task domains.
+
+## Elevation & Depth
+
+Visual hierarchy is constructed through structural surface stacking, fine 1px borders, and translucent glassmorphic layering rather than heavy drop shadows.
+
+### Elevation Architecture
+1. **Base Floor (Z-0):** `#090D16` – Canvas background; zero shadow.
+2. **Structural Panels (Z-1):** `#0F172A` with a 1px border (`rgba(255, 255, 255, 0.08)` or `#1E293B`).
+3. **Elevated Cards & Popovers (Z-2):** `#1E293B` backed by a diffuse ambient shadow: `box-shadow: 0 4px 20px -2px rgba(0, 0, 0, 0.45)`.
+4. **Command Bars & Modals (Z-3):** Translucent backdrop blur (`backdrop-filter: blur(16px); background: rgba(15, 23, 42, 0.85);`) with a hairline border (`rgba(255, 255, 255, 0.12)`) and deep presence shadow: `box-shadow: 0 16px 48px -8px rgba(0, 0, 0, 0.65)`.
+
+### Border Discipline
+Drop shadows are never used without a crisp defining hairline edge. This maintains architectural separation under low display contrasts or varying display calibrations.
+
+## Shapes
+
+The design system embraces a **Soft (Level 1)** shape system, establishing compact precision without aggressive sharp corners.
+
+### Radii Tokens
+- **Base Components (`0.25rem` / `4px`):** Checkboxes, tags, badges, input controls, table selection states, and keyboard shortcut chips.
+- **Medium Elements (`0.375rem` / `6px`):** Standard buttons, list-item hover pills, dropdown menus, and nested containers.
+- **Cards & Modals (`0.5rem` / `8px`):** High-level task cards, settings panels, floating command palettes (Raycast-style), and split panes.
+- **Pill Exceptions (`9999px`):** User avatars and active pulsing status dots only. Interactive buttons and chips remain structured rectangular forms with soft corners.
+
+## Components
+
+### Buttons
+- **Primary:** Solid Electric Indigo (`#6366F1`), white text, crisp 1px inset highlight (`box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2)`), hover shifts to `#4F46E5`.
+- **Secondary:** Surface `#1E293B`, border 1px solid `rgba(255, 255, 255, 0.08)`, text `#F8FAFC`. Hover shifts to `#334155`.
+- **Ghost / Icon Action:** Transparent background, text `#94A3B8`, hover background `rgba(255, 255, 255, 0.05)`, hover text `#F8FAFC`. Compact padding (6px for 28px hit target).
+
+### Inputs & Search Bars
+- Standard height: 32px (compact) and 40px (default).
+- Background `#0F172A`, 1px border `#334155`.
+- Active focus state: Border color transitions to `#6366F1` with an outer focus halo `0 0 0 2px rgba(99, 102, 241, 0.25)`.
+- Includes trailing keyboard shortcut tokens (`⌘K`) aligned right.
+
+### Keyboard Shortcut Chips (Kbd)
+- Monospaced typography via JetBrains Mono (`code-sm`).
+- Height: 20px, minimum width: 20px.
+- Background `#1E293B`, subtle border 1px solid `#334155`, text `#94A3B8`, border-radius 3px.
+
+### Badge & Status Tags
+- Compact height: 20px, font size 11px (`label-sm`), uppercase with +0.04em tracking.
+- Subtle background tint combined with matching solid text and a 1px border at 20% opacity.
+- Optional 6px circular dot indicator preceding the label text.
+
+### Interactive Data Tables
+- Row height: 36px (compact) to 44px (spacious).
+- Subtle 1px bottom border `#1E293B`.
+- Row hover: `#1E293B` at 50% opacity.
+- Row selected: Background `rgba(99, 102, 241, 0.08)` with a 2px left border accent in `#6366F1`.
+- Numbers formatted with `font-feature-settings: "tnum" 1`.
+
+### Command Palette (Spotlight / Raycast Pattern)
+- Fixed center-top screen overlay, max-width 640px.
+- Translucent backdrop blur panel (`rgba(15, 23, 42, 0.90)`), 8px border-radius, hairline border.
+- Integrated quick-search input with instant arrow-key row navigation and pinned command actions.

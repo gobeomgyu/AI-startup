@@ -1,0 +1,42 @@
+{
+  "name": "fronttest",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint . --max-warnings 0",
+    "lint:fix": "eslint . --fix --max-warnings 0",
+    "format": "prettier . --write",
+    "format:check": "prettier . --check",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "check": "npm run lint && npm run format:check && npm run typecheck && npm run test",
+    "prepare": "node scripts/setup-hooks.mjs"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@eslint/js": "^9.0.0",
+    "@types/node": "^24.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "eslint": "^9.0.0",
+    "eslint-config-next": "^16.4.2",
+    "eslint-config-prettier": "^10.1.5",
+    "prettier": "^3.0.0",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^6.0.2",
+    "typescript-eslint": "^8.56.0",
+    "vitest": "^5.0.5"
+  },
+  "dependencies": {
+    "hermes-parser": "^0.25.1",
+    "next": "^16.4.2",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "engines": {
+    "node": ">=20.19.0"
+  }
+}
