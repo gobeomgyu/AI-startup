@@ -155,12 +155,12 @@ The color architecture is built for dense workspaces, engineered natively with a
 
 ### Neutral System
 - **Slate Canvas Base (`#0B0F19` to `#0F172A`):** The foundational substrate contains cool blue-slate undertones, preventing pure-black OLED smearing while giving ambient depth.
-- **Surface Elevation Steps:** 
+- **Surface Elevation Steps:**
   - Substrate / Canvas: `#090D16`
   - Layer 1 (Sidebar / Pane): `#0F172A`
   - Layer 2 (Active Cards / Panels): `#1E293B`
   - Layer 3 (Hover States / Modals / Popovers): `#334155`
-- **Text & Foreground Hierarchy:** 
+- **Text & Foreground Hierarchy:**
   - Primary Content: `#F8FAFC` (High-contrast Slate 50)
   - Secondary / Supporting: `#94A3B8` (Slate 400)
   - Muted / Placeholder: `#64748B` (Slate 500)
